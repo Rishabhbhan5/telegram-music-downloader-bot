@@ -7,7 +7,7 @@ from youtubesearchpython import VideosSearch
 from os.path import join, dirname
 
 TOKEN = os.environ.get("5017583829:AAG_UYqeiHUZrq-BbK_NP4BiBdoww8ze4VE")
-bot = telepotpro.Bot(5017583829:AAG_UYqeiHUZrq-BbK_NP4BiBdoww8ze4VE)
+bot = telepotpro.Bot(TOKEN)
 
 class Music:
     def __init__(self, user_input, msg):
